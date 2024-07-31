@@ -1,0 +1,59 @@
+["Thaumcraft.cfg".research]
+"I:research_difficulty" = -1
+
+["GregTech/GregTech.cfg".pollution]
+"B:EnablePollution" = false
+
+["GregTech/GregTech.cfg".machines]
+"B:use_machine_metal_tint" = false # per UU-Tex instructions
+
+["serverutilities/serverutilities.cfg".afk]
+"B:log_afk" = true
+
+["serverutilities/serverutilities.cfg".backups]
+"B:enable_backups" = true
+"S:backup_timer" = 0.5 # Back up every 30 minutes
+"I:backups_to_keep" = 48 # Keep 24 hours of backups
+"B:need_online_players" = false
+"I:compression_level" = 3
+
+["serverutilities/serverutilities.cfg".commands]
+"B:backup" = true
+"B:chunks" = true
+"B:tpa" = true
+"B:back" = true
+"B:killall" = true
+"B:rec" = true
+"B:spawn" = true
+"B:inv" = true
+"B:mute" = true
+"B:kickme" = true
+"B:leaderboard" = true
+"B:nbtedit" = true
+"B:tpl" = true
+"B:nick" = true
+"B:fly" = true
+"B:dump_permissions" = true
+"B:god" = true
+"B:warp" = true
+"B:heal" = true 
+"B:dump_chunkloaders" = true
+"B:trash_can" = true
+"B:ranks" = true
+"B:rtp" = true
+"B:home" = true
+
+["serverutilities/serverutilities.cfg".ranks]
+"B:enabled" = true
+
+["serverutilities/serverutilities.cfg".team]
+"B:autocreate_mp" = true
+
+["serverutilities/serverutilities.cfg".world]
+"B:chunk_claiming" = true
+"B:chunk_loading" = true
+
+["serverutilities/server/ranks.txt".admin]
+"serverutilities.claims.max_chunks" = 10000
+"serverutilities.chunkloader.max_chunks" = 10000
+"serverutilities.homes.max" = 3
