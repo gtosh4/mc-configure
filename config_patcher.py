@@ -82,7 +82,7 @@ def patch(config_file, config_dir, dry_run):
                     if m:
                         new_line = f"{m.group(1)}{value}\n"
                         if lines[i] != new_line:
-                            print(f"patching {file.name}:{i+1}:\n-{line}+{lines[i]}")
+                            print(f"patching {file.name}:{i+1}:\n-{line}+{new_line}")
                             lines[i] = new_line
                             changed = True
                         break

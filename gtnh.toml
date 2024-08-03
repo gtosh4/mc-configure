@@ -1,5 +1,5 @@
 ["Thaumcraft.cfg".research]
-"I:research_difficulty" = -1
+"I:research_difficulty" = 1
 
 ["GregTech/GregTech.cfg".pollution]
 "B:EnablePollution" = false
